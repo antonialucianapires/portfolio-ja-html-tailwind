@@ -4,10 +4,10 @@ const body = document.body;
 const header = document.querySelector('header');
 const brandName = document.getElementById('brandName');
 const navLinks = document.getElementById('navLinks');
-const cards = document.querySelectorAll('.card'); 
-const loadMoreButton = document.getElementById('loadMore'); 
-const skillTitles = document.querySelectorAll('.skill-title'); 
-const skillDescriptions = document.querySelectorAll('.skill-description'); 
+const cards = document.querySelectorAll('.card');
+const loadMoreButton = document.getElementById('loadMore');
+const skillTitles = document.querySelectorAll('.skill-title');
+const skillDescriptions = document.querySelectorAll('.skill-description');
 
 themeToggle.addEventListener('click', () => {
   if (body.classList.contains('bg-white')) {

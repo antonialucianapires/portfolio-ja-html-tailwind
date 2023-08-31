@@ -13,7 +13,7 @@ function displayRepos() {
 
     nextRepos.forEach((repo) => {
         const card = `
-            <div class="card rounded shadow-lg p-4 w-full sm:bg-white sm:text-black md:bg-white md:text-black" id="card1">
+            <div class="card rounded shadow-lg border border-black p-4 rounded w-full sm:bg-white sm:text-black md:bg-white md:text-black" id="card1">
                 <h2 class="text-xl font-bold card-title">${repo.name}</h2>
                 <i class="fab fa-${repo.language ? repo.language.toLowerCase() : 'code'} card-icon"></i>
                 <p class="text-sm mt-2 card-description">${repo.description || 'Sem descrição'}</p>
