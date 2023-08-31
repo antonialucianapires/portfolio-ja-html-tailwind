@@ -9,7 +9,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 flex flex-col min-h-screen justify-between">
     <header class="bg-white text-gray-900">
         <nav class="container mx-auto flex flex-wrap items-center justify-between p-6">
             <div id="brandName" class="text-2xl font-bold">
@@ -42,6 +42,47 @@
             </div>
         </nav>
     </header>
+    <aside id="socialIcons"
+        class="w-full sm:w-full md:w-full lg:w-32 flex flex-row sm:flex-row md:flex-row lg:flex-col items-center justify-center bg-transparent mb-8 space-x-4 sm:space-x-4 md:space-x-4 lg:space-x-0 space-y-0 sm:space-y-0 md:space-y-0 lg:space-y-2">
+        <a href="#" class=" text-gray-600 hover:text-purple-600">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="#" class=" text-gray-600 hover:text-purple-600">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-purple-600">
+            <i class="fab fa-wordpress fa-lg"></i>
+        </a>
+    </aside>
+    <main class="flex-1">
+        <div class="flex flex-col items-center justify-center">
+            <div
+                class="container mx-auto p-7 flex flex-col sm:flex-col md:flex-col lg:flex-row items-center justify-center sm:w-full sm:text-xl md:text-lg lg:text-lg">
+                <div class="w-full sm:w-full md:w-full lg:w-1/2 pr-8 mx-auto">
+                    <h1 class="text-4xl font-bold mb-4 text-center lg:text-left">Olá, mundo!</h1>
+                    <p class="text-lg sm:text-xl md:text-lg mb-8 sm:text-center lg:text-left">
+                        Sou desenvolvedora de software com mais de 3 anos de experiência, especificamente na área
+                        backend.
+                        Gosto de estudar a fundo sobre os temas nos quais me interesso, como Java, Astrologia, entre
+                        outras
+                        coisas.
+                        Busco usar a criatividade e a curiosidade para construir aplicações inovadoras e escaláveis!
+                    </p>
+                    <button
+                        class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 block mb-5 sm:mx-auto md:mx-auto lg:mx-0 xl:mx-0">
+                        Entre em contato
+                    </button>
+                </div>
+                <div class="w-full sm:w-full md:w-full lg:w-1/2 mt-8 sm:mt-8 md:mt-8 lg:mt-0 mx-auto">
+                    <div class="rounded">
+                        <img class="w-full h-auto sm:h-auto md:h-auto lg:h-80 lg:w-80 rounded mx-auto block"
+                            src="assets/img/me.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
